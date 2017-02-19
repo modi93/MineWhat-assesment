@@ -1,4 +1,4 @@
-#idHeaderContent, #idMainBodyContent
+#idHeaderContent
 {
     font-family: open sans;
     color: #363636;
@@ -7,8 +7,20 @@
     margin: -6px;
 }
 
-#idHeaderHeading
+#idHeaderHeading, #idContentHeading
 {
 	padding:0px 0px 0px 49px;
 	font-weight: normal;
+}
+
+#idMainBodyContent
+{
+	color: #666;
+    font-family: open sans;
+}
+#idContentHeading
+{
+    position: absolute;
+    top: 40%;
+    left: 38%;
 }

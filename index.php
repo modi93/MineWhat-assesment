@@ -13,7 +13,9 @@
 	<div class="classHeader" id="idHeaderContent">
 		<h2 id="idHeaderHeading">YOURSTORE.COM</h2>
 	</div>
-	<div class="classMainBody" id="idMainBodyContent"></div>
+	<div class="classMainBody" id="idMainBodyContent">
+		<h2 id="idContentHeading">PAGE CONTENT</h2>
+	</div>
 	<div class="classFooter" id="idFooterContent"></div>
 </body>
 </html>
