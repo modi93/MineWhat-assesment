@@ -1,0 +1,14 @@
+#idHeaderContent, #idMainBodyContent
+{
+    font-family: open sans;
+    color: #363636;
+    background-color: #ccc;
+    padding: 1px;
+    margin: -6px;
+}
+
+#idHeaderHeading
+{
+	padding:0px 0px 0px 49px;
+	font-weight: normal;
+}
