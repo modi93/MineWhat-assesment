@@ -1,7 +1,13 @@
+body
+{
+	font-family: open sans;
+}
+p, a, #idHeaderContent
+{
+	color: #363636;
+}
 #idHeaderContent
 {
-    font-family: open sans;
-    color: #363636;
     background-color: #ccc;
     padding: 1px;
     margin: -6px;
@@ -12,11 +18,9 @@
 	padding:0px 0px 0px 49px;
 	font-weight: normal;
 }
-
 #idMainBodyContent
 {
 	color: #666;
-    font-family: open sans;
 }
 #idContentHeading
 {
@@ -30,26 +34,25 @@
 }
 p, a
 {
-	font-family: open sans;
 	font-size: 12px;
 	font-weight: normal;
-	color: #363636;
+	
 	text-decoration: none;
 }
 input.classButtonClose
 {
-	background-image: url(../images/icon-close.png); /* 16px x 16px */
-	background-color: transparent; /* make the button transparent */
-	background-repeat: no-repeat;  /* make the background image appear only once */
-	background-position: 0px 0px;  /* equivalent to 'top left' */
-	border: none;           /* assuming we don't want any borders */
-	cursor: pointer;        /* make the cursor like hovering over an <a> element */
+	background-image: url(../images/icon-close.png); 
+	background-color: transparent; 
+	background-repeat: no-repeat;  
+	background-position: 0px 0px;  
+	border: none;           
+	cursor: pointer;        
     float: right;
-    vertical-align: middle; /* align the text vertically centered */
+    vertical-align: middle; 
 }
 #flyin
 {
-	float: right;
+	opacity: 0;
 	margin-top:25%;
 	border: 3px solid rgba(158, 158, 158, 0.25);
 	padding: 18px;
@@ -63,7 +66,11 @@ input.classButtonClose
 .classModalMainBodyContent
 {
     border: 1px solid rgba(158, 158, 158, 0.67);
-    /*padding: 6px;*/
     background-color: #ccc;
     margin-left: 12px;
+}
+#flyin.run
+{
+	float: right;
+	opacity: 100;
 }
